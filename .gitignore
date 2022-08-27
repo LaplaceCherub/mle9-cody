@@ -132,4 +132,4 @@ dmypy.json
 .DS_Store
 
 # Reddit API
-assignments/week-3-reddit-sentiment/secrets_reddit.py
+/assignments/week-3-reddit-sentiment/secrets_reddit.py
