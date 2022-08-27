@@ -11,9 +11,9 @@
 
 ## ☑️ Objectives
 At the end of this session, you will be able to:
-- [ ] Understand how to find and run pre-trained models
-- [ ] Evaluate results from pre-trained models
-- [ ] Run a pre-trained model using real twitter data
+- [X] Understand how to find and run pre-trained models
+- [X] Evaluate results from pre-trained models
+- [X] Run a pre-trained model using real twitter data
 
 
 ## :hammer_and_wrench: Pre-Assignment
