@@ -10,8 +10,10 @@ st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Walmart_Labs
 st.markdown("<h1 style='text-align: center; color: black;'>Online Electronics Purchasing Behavior</h1>", unsafe_allow_html=True)
 
 # Import train dataset to DataFrame
-train_df = pd.read_csv("../dat/train.csv.gz", compression="gzip")
-model_results_df = pd.read_csv("../dat/model_results.csv")
+train_df = pd.read_csv('~/Desktop/fourthbrain/MLE-9/assignments/week-6-supervised-ML/dat/train.csv.gz')
+model_results_df = pd.read_csv('~/Desktop/fourthbrain/MLE-9/assignments/week-6-supervised-ML/dat/model_results.csv')
+explainability_df = pd.read_csv('~/Desktop/fourthbrain/MLE-9/assignments/week-6-supervised-ML/dat/explainability.csv')
+
 
 # Drop uniformative columns
 train_df.drop(columns=["year", "month", "Weekend"], inplace=True)
@@ -147,9 +149,12 @@ with tab3:
         # Use tab2 as a guide!  
         # Use columns to separate visualizations for models
         # Include a plot for local and global explanability!
+    col1, col2 = st.columns(2)
      
-    st.header(model1_select)
-    
-    st.header(model2_select)
+    with col1:
+        st.header(model1_select)
+        st.dataframe(explainability_df.head())
+    with col2:
+        st.header(model2_select)
 
     
