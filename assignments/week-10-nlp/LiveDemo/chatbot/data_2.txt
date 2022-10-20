@@ -1,0 +1,15 @@
+Spotify wake word detection is to design a machine learning model that can process a custom wake word- “Hey Fourthbrain”. Wake words are critical to designing low-power machine learning process data to wake up the device for full processing of further commands spoken. These systems have to be always listening, computationally efficient, and, more importantly, privacy respecting.
+
+
+The Cisco Agent Assist solution increases operational efficiency in a contact center by providing human agents with the right information at the right time. During a call, the Agent Assist solution “listens” to the ongoing conversation. It automatically surfaces resources from a company-specific knowledge base (KB) relevant to the customer’s query or issue. This feature’s entry point consists of a filter model that removes irrelevant parts of a conversation, such as greetings or pleasantries. It only sends queries related to the company domain for downstream processing. 
+
+The goal of Cisco Agent is to build such a filter, a lightweight model capable of identifying which parts of a conversation are relevant and informative in the context of a contact center interaction. However, this project is not simply to develop a binary classifier. It will involve the acquisition and even generation of knowledge bases and datasets for training and evaluation.  
+
+
+GLG project goal is to link every request to the best expert. GLG's business largely revolves around matching clients, requesting insights on a specific topic, with an expert on that topic from their large database so that they can meet by phone, video or in person. Since GLG receives 100s of these daily requests, how can they leverage machine learning to semi-automate the matching process at scale? 
+
+
+The purpose of the GLG project is to develop an NLP model capable of recognizing and clustering topics related to technological and healthcare terms given a large text corpus in an unsupervised manner. The process includes the following two parts:  First part of the project is to develop a NER tagger capable of recognizing technological and healthcare terms given unstructured text documents. The second part of the project is clustering submitted requests to study the pattern and produce a hierarchical clustering of topics submitted over a period of time. 
+
+
+The goal for Samsung Explainability is to create a mitotic detector to assist pathologists.  The detector will detect mitoses in whole slide images and then give an English explanation of why a particular figure classified as "mitotic" merits that classification.
