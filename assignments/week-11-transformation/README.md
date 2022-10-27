@@ -22,4 +22,4 @@ If you are not familiar with Transformer, reviewing [Text Classification - Atten
 It is possible that you may hit usage limit using Google CoLab; see [explanations](https://stackoverflow.com/questions/61126851/how-can-i-use-gpu-on-google-colab-after-exceeding-usage-limit). Particularly it could happen when fine-tuning DistilBert. Completely optional to upgrade to CoLab Pro; just wait for a cool-down period (1--2 days), try again.
 
 ## Background
-Please review the weekly narrative [here](https://great-yamamomo-5c3.notion.site/Week-11-Transformers-08987d89d4bb4e7fb1d29c12a9c5a30c)
+Please review the weekly narrative [here](https://great-yamamomo-5c3.notion.site/Week-10-Natural-Language-Processing-059b5bfc084a4e8da0f9b86882e7eb86)
