@@ -135,8 +135,14 @@ Note that the second command requires `vim`.
     ```
     COPY src/ .
     ```
+    
+8. We'll expose port 8000 with the following text:
 
-8. Lastly, set the command to run the `uvicorn` server.
+	```docker
+	EXPOSE 8000
+	```
+
+9. Lastly, set the command to run the `uvicorn` server.
 
     `CMD` takes a list of strings, each of these strings is what you would type in the command line separated by spaces.
 
